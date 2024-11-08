@@ -27,5 +27,21 @@ This program automates the Secret Santa assignment process for a group of employ
 ## Installation
 
 1. Clone this repository:
-   git clone <repository_url>
+   
+   git clone https://github.com/vinodkumarkuruva/CSV_Extraction.git
    cd secret_santa_project
+
+   
+## Install the required dependencies:
+
+pip install -r requirements.txt
+
+## Usage
+
+Prepare the Input Files:
+
+1 . Create an Excel file for employees, e.g., Employee-List.xlsx, with the following columns :  Employee_Name , Employee_EmailID
+2 . Create an Excel file for previous assignments, e.g., Secret-Santa-Game-Result-2023.xlsx, with the following columns :  Employee_Name , Secret_Child_Name (the person they were assigned last year)
+
+## Run the Application :  python secret_santa.py
+
